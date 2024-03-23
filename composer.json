@@ -1,0 +1,48 @@
+{
+    "name": "nextdeveloper/vinchin",
+    "type": "library",
+    "description": "A client library to manage vinchin services with REST API.",
+    "keywords": [
+        "php",
+        "code",
+        "vinchin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harun Baris Bulut",
+            "email": "baris.bulut@plusclouds.com",
+            "homepage": "https://nextdeveloper.com",
+            "role": "R&D Director"
+        }
+    ],
+    "require": {
+        "php": "^8",
+        "ext-SimpleXML": "*",
+        "ext-ctype": "*",
+        "ext-dom": "*",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-mbstring": "*",
+        "ext-tokenizer": "*",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "platform-check": false
+    },
+    "extra": {
+    },
+    "autoload": {
+        "psr-4": {
+            "NextDeveloper\\Vinchin\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+

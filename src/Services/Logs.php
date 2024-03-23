@@ -2,7 +2,7 @@
 
 namespace NextDeveloper\Vinchin\Services;
 
-class Logs extends AbstractService
+class Logs implements AbstractService
 {
 
 }

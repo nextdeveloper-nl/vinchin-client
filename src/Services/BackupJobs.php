@@ -2,7 +2,7 @@
 
 namespace NextDeveloper\Vinchin\Services;
 
-class BackupJobs extends AbstractService
+class BackupJobs implements AbstractService
 {
 
 }

@@ -2,7 +2,7 @@
 
 namespace NextDeveloper\Vinchin\Services;
 
-class Licencing extends AbstractService
+class Licencing implements AbstractService
 {
 
 }

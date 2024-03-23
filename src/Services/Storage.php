@@ -2,7 +2,7 @@
 
 namespace NextDeveloper\Vinchin\Services;
 
-class Storage extends AbstractService
+class Storage implements AbstractService
 {
 
 }

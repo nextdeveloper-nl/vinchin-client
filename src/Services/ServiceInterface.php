@@ -4,11 +4,11 @@ namespace NextDeveloper\Vinchin\Services;
 
 Interface ServiceInterface
 {
-    public function get();
+    public function get(array $parameters = []);
 
-    public function create();
+    public function create(array $data);
 
-    public function update();
+    public function update(array $data);
 
-    public function delete();
+    public function delete(array $data);
 }

@@ -9,7 +9,7 @@ class HttpException extends Exception
     protected $statusCode;
     protected $defaultMessage;
 
-    public function __construct($message = null, $code = 0, Exception $previous = null) {
+    public function __construct($message = null, $code = 0, ?Exception $previous = null) {
         if (!$message) {
             $message = $this->defaultMessage;
         }
